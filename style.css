@@ -51,7 +51,7 @@ h1 {
     font-weight: 900;
 }
 
-.Hero-secondary-text {
+.Hero-secondary-text, .action {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -98,4 +98,31 @@ strong {
     align-self: flex-end;
     font-size: 25px;
 
+}
+
+.container6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    margin: 100px;
+}
+
+.action {
+    background-color: #3882f6;
+    width: 2000px;
+    padding: 30px;
+    /* flex: 0; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup {
+    margin-top: -20px;
 }
