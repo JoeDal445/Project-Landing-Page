@@ -43,6 +43,7 @@ body {
 .Hero2 {
     display: flex;
     flex-direction: column;
+    /* flex-wrap: wrap; */
 }
 
 h1 {
@@ -62,7 +63,9 @@ button {
 
 .container4 {
     text-align: center;
-
+    padding: 80px;
+    margin-top: -85px;
+    
 }
 
 h2{
@@ -79,4 +82,20 @@ h2{
 
 .container5 {
     background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: light italic;
+}
+
+strong {
+    align-self: flex-end;
+    font-size: 25px;
+
 }
