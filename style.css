@@ -37,7 +37,7 @@ body {
 
 .Hero {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .Hero2 {
@@ -58,6 +58,17 @@ h1 {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+.container4 {
+    text-align: center;
+
+}
+
+.subtext1 {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
 
 .container5 {
