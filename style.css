@@ -1,6 +1,12 @@
+body {
+    border: 5px solid blueviolet;
+    height: 100vh;
+}
+
 .Container1 {
-    /* border: 5px solid red; */
+    border: 5px solid red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    flex: auto;
 }
