@@ -25,6 +25,15 @@ body {
     color: #f9faf8;
 }
 
+/* .headerimage { 
+    width: 50px;
+} */
+
+/* .img1 { 
+    width: 100px;
+    height: 100px;
+} */
+
 .Header {
     display: flex;
     justify-content: space-around;
@@ -38,6 +47,7 @@ body {
 .Hero {
     display: flex;
     justify-content: space-around;
+    margin: 100px;
 }
 
 .Hero2 {
@@ -83,6 +93,7 @@ h2{
 .image {
     border: 3px solid #3882f6;
     border-radius: 20px;
+    width: 250px;
 }
 
 .container5 {
