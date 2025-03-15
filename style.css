@@ -64,7 +64,7 @@ button {
 .container4 {
     text-align: center;
     padding: 80px;
-    margin-top: -85px;
+    /* margin-top: -85px; */
     
 }
 
@@ -78,6 +78,11 @@ h2{
     display: flex;
     justify-content: center;
     gap: 32px;
+}
+
+.image {
+    border: 3px solid #3882f6;
+    border-radius: 20px;
 }
 
 .container5 {
@@ -116,6 +121,7 @@ strong {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
 }
 
 .action2 {
@@ -125,4 +131,15 @@ strong {
 
 .signup {
     margin-top: -20px;
+}
+
+.Footer 
+{
+    text-align: center;
+}
+
+button {
+    width: 125px;
+    height: 40px;
+    border-radius: 10px;
 }
